@@ -1,6 +1,8 @@
 {
     "name": "alustau/symlib",
     
+    "minimum-stability": "dev",
+    
     "require": {
         "symfony/form": "^3.0",
         "doctrine/orm": "^2.4.8",
