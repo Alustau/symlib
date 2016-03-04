@@ -2,12 +2,12 @@
 
 namespace Symlib\Form;
 
-use Symfony\Component\Form\AbstractType as Type;
+use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\DependencyInjection\ContainerAwareTrait;
 
-abstract class AbstractType extends Type
+abstract class Type extends AbstractType
 {
     use ContainerAwareTrait;
     
