@@ -7,11 +7,6 @@
           "name": "Denis Alustau",
           "email": "denisalustau@gmail.com"
         }
-    ],
-    
-    "require": {
-        "symfony/form": "^3.0",
-        "symfony/dependency-injection": "^3.0"
-    }
+    ]
 }
     
