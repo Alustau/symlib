@@ -1,6 +1,6 @@
 <?php
 
-namespace Form;
+namespace Symlib\Form;
 
 use Symfony\Component\Form\AbstractType as Type;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -15,13 +15,7 @@ abstract class AbstractType extends Type
     
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-//         $em = $this->getDoctrine()->getManager();
-//         $em = $this->getDoctrine()->getManager();
-////        $columns = $em->getClassMetadata('AppBundle\Entity\Equipe')->fieldMappings;
-//        $columns = $em->getClassMetadata('AppBundle\Entity\Equipe');
         
-//        $builder
-//            ->add('nome', 'text', ['required' => false]);
     }
     
     public function configureOptions(OptionsResolver $resolver)

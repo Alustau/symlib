@@ -10,8 +10,8 @@
     ],
     
     "autoload": {
-        "psr-4": {
-            "Symlib": "src/"
+        "psr-0": {
+            "Symlib\\": "src"
         }
     }
 }
