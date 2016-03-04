@@ -7,6 +7,12 @@
           "name": "Denis Alustau",
           "email": "denisalustau@gmail.com"
         }
-    ]
+    ],
+    
+    "autoload": {
+        "psr-4": {
+            "Symlib": "src/"
+        }
+    }
 }
     
